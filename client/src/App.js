@@ -16,7 +16,6 @@ import UserBlogs from './pages/userblogs/UserBlogs';
 import Contact from './pages/contact/Contact';
 import PostCate from './pages/postcate/PostCate';
 
-//nn
 
 function App() {
   const {user} = useAuthContext();
