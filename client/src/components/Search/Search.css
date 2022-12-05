@@ -1,0 +1,55 @@
+form.search a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* margin: 0 0.5rem; */
+    padding: 0.5rem 1rem;
+    /* border-radius: 0.5rem; */
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+form.search a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+form.search .result {
+    background-color: aquamarine;
+    width: 26%;
+    margin-left: 2.7rem;
+}
+
+form.search label {
+    display: flex;
+    margin-bottom: 0.5rem;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.search-icon {
+    /* position: absolute; */
+    /* top: 0.5rem;
+    right: 0.5rem; */
+    font-size: 2rem !important;
+    color: #000;
+    cursor: pointer;
+    /* transition: all 0.2s ease-in-out; */
+}
+
+form.search input {
+    width: 70%;
+    padding: 0 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    outline: none;
+    /* transition: all 0.2s ease-in-out; */
+}

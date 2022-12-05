@@ -1,0 +1,88 @@
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh;
+    overflow-y: scroll; */
+    box-sizing: border-box;
+    width: 100%;
+    flex: 2 0;
+}
+
+.user h2 {
+    text-transform: capitalize;
+}
+
+.user-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.pro-label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: 1em 0;
+}
+
+.pro-label input {
+    border: 1px solid #a2d2ff;
+    background-color: white !important;
+    border-radius: 5px;
+    outline: none;
+    padding: 0.5em 1em;
+}
+
+.pro-field {
+    cursor: pointer;
+    color: #333;
+    font-weight: 600;
+}
+
+.pro-btn {
+    width: 15%;
+    height: 2em;
+    border: none;
+    /* padding: 0.5em; */
+    border-radius: 5px;
+    background-color: #a2d2ff;
+    color: #333;
+    font-size: 1.2em;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 1em 0;
+}
+
+.pro-btn:hover {
+    background-color: #333;
+    color: #a2d2ff;
+}
+
+@media screen and (max-width: 700px) {
+    .pro-label {
+        width: 70%;
+    }
+    .pro-btn {
+        width: 40%;
+    }
+}
+@media screen and (max-width: 460px) {
+    .pro-label {
+        width: 100%;
+    }
+    .pro-btn {
+        width: 40%;
+    }
+    .pro-label input {
+        width: 50%;
+    }
+}
